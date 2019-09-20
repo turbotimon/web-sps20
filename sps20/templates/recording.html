@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Recording: {{ this.speaker }} &ndash; {{ this.title }}{% endblock %}
+
+{% block body %}
+    <h2>{{ this.speaker }}</h2>
+    <h1>{{ this.title }}</h1>
+
+    <p>This talk was presented at Python Summit {{ this.year }}.</p>
+
+    <a href="{{ this.video_url }}" target="_blank">Video Recording</a>
+
+    {% set slides=this.attachments|selectattr("type", "eq", "slides")|list %}
+
+    {% if slides %}
+    <h3>Slides</h3>
+    <ul>
+        {% for slide in slides %}
+        <li><a href="{{ slide|url }}">{{ slide.path.split('/')[-1] }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+{% endblock %}
