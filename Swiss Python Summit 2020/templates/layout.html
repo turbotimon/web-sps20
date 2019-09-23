@@ -1,29 +1,33 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/css/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — Swiss Python Summit 2020</title>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
+    <title>{% block title %}Welcome{% endblock %} — Swiss Python Summit 2020</title>
+</head>
 <body>
-  <header>
-    <h1>Swiss Python Summit 2020</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
-  <footer>
-    &copy; Copyright 2019 by EVM.
-  </footer>
+    <header>
+        <h1>Swiss Python Summit 2020</h1>
+        <nav>
+            <ul class="nav navbar-nav">
+                <li{% if this._path == '/' %} class="active"{% endif
+                  %}><a href="{{ '/'|url }}">Welcome</a></li>
+                {% for href, title in [
+                  ['/blog', 'Blog'],
+                  ['/projects', 'Projects'],
+                  ['/about', 'About']
+                ] %}
+                  <li{% if this.is_child_of(href) %} class="active"{% endif
+                    %}><a href="{{ href|url }}">{{ title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page">
+        {% block body %}{% endblock %}
+    </div>
+
+    <footer>
+        &copy; Copyright 2019 by EVM.
+    </footer>
 </body>
