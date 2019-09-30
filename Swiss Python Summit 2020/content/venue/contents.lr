@@ -1,3 +1,5 @@
+_template: mappage.html
+---
 title: Venue
 ---
 body:
@@ -6,12 +8,11 @@ The Swiss Python Summit is held at [HSR University of Applied Sciences](https://
 
 # Map
 
-TODO: add map.
+<div class="map" data-lat="47.223307" data-lon="8.816796" data-zoom="15" data-title="HSR University of Applied Sciences">&nbsp;</div>
 
 # Room
 
-TODO: better format this image.
-![Aula](aula.jpg)
+<img src="aula.jpg" alt="Aula" class="aula"/>
 
 The conference will take place in the Aula (building 4). As you enter building 4 head upstairs.
 
