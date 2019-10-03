@@ -10,7 +10,7 @@
         <a href="{{ site.get_root()|url }}"><h1>Swiss Python Summit 2020</h1></a>
         <nav>
             <ul class="children">
-                {% for page in this.children %}
+                {% for page in site.root.children %}
                 <li {% if this == page %}class="active"{% endif %}>
                     <a href="{{ page|url }}">{{ page.title }}</a>
                 </li>
