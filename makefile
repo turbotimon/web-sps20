@@ -1,3 +1,6 @@
+usage:
+	@echo "Make targets: install, serve"
+
 install: in_virtual_env
 	pip install lektor
 
