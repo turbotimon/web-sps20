@@ -12,7 +12,7 @@
             <ul class="children">
                 {% for page in site.root.children %}
                 <li {% if this == page %}class="active"{% endif %}>
-                    <a href="{{ page|url }}">{{ page.title }}</a>
+                    <a href="{{ page|url }}">{{ page.menu_title or page.title }}</a>
                 </li>
                 {% endfor %}
             </ul>
