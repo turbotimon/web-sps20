@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+  <div class="recordings">
+    <h2>{{ this.title }}</h2>
+    {{ this.body }}
+
+    {% for year in this.children|map(attribute="year")|sort(reverse=True)|unique %}
+        <h3>{{ year }}</h3>
+
+        {% if bag("playlists", year|string) %}
+            <a href="{{ bag("playlists", year|string) }}">YouTube Playlist</a>
+        {% endif %}
+
+        <ul>
+        {% for talk in this.children|selectattr("year", "eq", year)|sort(attribute="ordering") %}
+            {% set slides=talk.attachments|selectattr("type", "eq", "slides")|list %}
+            <li>
+                <a href="{{ talk.video_url }}">{{ talk.speaker }} &ndash; {{ talk.title }}</a>
+                {% if slides %}
+                    [
+                    {%- for slide in slides -%}
+                    <a href="{{ slide|url }}">slides</a>{% if not loop.last %}, {% endif %}
+                    {%- endfor -%}
+                    ]
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+  </div>
+{% endblock %}

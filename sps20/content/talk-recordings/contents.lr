@@ -1,0 +1,11 @@
+_model: page
+---
+title: Talk Recordings
+---
+body: We record all the talks at our conference. You can find the recordings as well as the talk slides on this page!
+---
+_template: recordings.html
+---
+_slug: recordings
+---
+menu_title: Recordings
