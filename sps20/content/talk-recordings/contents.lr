@@ -1,6 +1,10 @@
 _model: page
 ---
-title: Talk Recordings
+title: Recordings
+---
+description: Recordings of talks held at past summits.
+---
+ordering: 2
 ---
 body: We record all the talks at our conference. You can find the recordings as well as the talk slides on this page!
 ---
