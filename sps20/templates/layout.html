@@ -4,7 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="{{ this.description }}">
+
         <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
+        <link rel="preload" href="hero.jpg" as="image">
+        <link rel="preload" href="logo.svg" as="image">
 
         <title>{% block title %}Welcome{% endblock %} — Swiss Python Summit</title>
     </head>
