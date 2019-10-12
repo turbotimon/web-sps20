@@ -2,7 +2,7 @@ _model: recording
 ---
 title: CFFI: Call C from Python
 ---
-ordering: 0
+ordering: 2
 ---
 speaker: Armin Rigo
 ---
