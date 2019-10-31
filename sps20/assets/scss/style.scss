@@ -49,6 +49,9 @@ $warning-pastel: $spsa-orange-pastel;
 @import 'spectre/media';
 @import 'spectre/navbar';
 @import 'spectre/chips';
+@import 'spectre/tables';
+@import 'spectre/accordions';
+@import 'spectre/icons';
 
 // utilities
 @mixin prefix ($prop, $val) {
@@ -331,4 +334,20 @@ div.mapboxgl-canvas-container > div > svg > g > g:nth-child(2) {
 // recordings
 .recordings h2 {
     margin-top: 1rem !important;
+}
+
+// program
+
+table#program {
+    border: 0px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+table#program .col-time {
+    width: 130px;
+}
+
+.meta {
+    font-style: italic;
 }
