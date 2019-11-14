@@ -360,6 +360,11 @@ table#program {
 
     .col-time {
         width: 130px;
+        @media (max-width: 800px) {
+            width: 60px;
+            overflow-x: auto;
+            vertical-align: middle;
+        }
     }
 
     .meta {

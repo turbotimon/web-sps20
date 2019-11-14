@@ -8,9 +8,15 @@ ordering: 3
 body:
 
 # Program
-It's been a difficult task to create a program, considering we received 39 proposals and time only allows for a maximum
-of 9 slots. Many promising proposals had to be left out to our regret, but we are certain that we managed to put
-together an amazing and very diverse program!
+This is the program for our previous conference. Stay tuned for the upcoming
+2020 program.
+
+<hr/>
+
+It was a difficult task to create a program, considering we received 39
+proposals and time only allowed for a maximum of 9 slots. Many promising
+proposals had to be left out to our regret, but we are certain that we managed
+to put together an amazing and very diverse program!
 
 <table id="program" class="table table-hover table-striped">
     <thead>
@@ -21,15 +27,15 @@ together an amazing and very diverse program!
     </thead>
     <tbody>
         <tr>
-            <td>08:00 – 09:00</td>
+            <td class="col-time">08:00 – 09:00</td>
             <td class="meta">Registration + Coffee (open until 09:15)</td>
         </tr>
         <tr>
-            <td>09:00 – 09:15</td>
+            <td class="col-time">09:00 – 09:15</td>
             <td class="meta">Welcome</td>
         </tr>
         <tr>
-            <td>09:15 – 10:00</td>
+            <td class="col-time">09:15 – 10:00</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-1" name="accordion-checkbox" hidden>
@@ -53,7 +59,7 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>10:00 – 10:40</td>
+            <td class="col-time">10:00 – 10:40</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-2" name="accordion-checkbox" hidden>
@@ -78,11 +84,11 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>10:40 – 11:10</td>
+            <td class="col-time">10:40 – 11:10</td>
             <td class="meta">Coffee break</td>
         </tr>
         <tr>
-            <td>11:10 – 11:40</td>
+            <td class="col-time">11:10 – 11:40</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-3" name="accordion-checkbox" hidden>
@@ -105,7 +111,7 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>11:40 – 12:10</td>
+            <td class="col-time">11:40 – 12:10</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-4" name="accordion-checkbox" hidden>
@@ -126,7 +132,7 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>12:10 – 12:40</td>
+            <td class="col-time">12:10 – 12:40</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-5" name="accordion-checkbox" hidden>
@@ -145,11 +151,11 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>12:40 – 14:00</td>
+            <td class="col-time">12:40 – 14:00</td>
             <td class="meta">Lunch</td>
         </tr>
         <tr>
-            <td>14:00 – 14:30</td>
+            <td class="col-time">14:00 – 14:30</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-6" name="accordion-checkbox" hidden>
@@ -175,7 +181,7 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>14:30 – 15:00</td>
+            <td class="col-time">14:30 – 15:00</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-7" name="accordion-checkbox" hidden>
@@ -195,11 +201,11 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>15:00 – 15:45</td>
+            <td class="col-time">15:00 – 15:45</td>
             <td class="meta">Coffee break</td>
         </tr>
         <tr>
-            <td>15:45 – 16:15</td>
+            <td class="col-time">15:45 – 16:15</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-8" name="accordion-checkbox" hidden>
@@ -223,7 +229,7 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>16:15 – 16:45</td>
+            <td class="col-time">16:15 – 16:45</td>
             <td>
                 <div class="accordion">
                     <input type="checkbox" id="accordion-9" name="accordion-checkbox" hidden>
@@ -249,11 +255,11 @@ together an amazing and very diverse program!
             </td>
         </tr>
         <tr>
-            <td>16:45 – 17:00</td>
+            <td class="col-time">16:45 – 17:00</td>
             <td class="meta">Closing</td>
         </tr>
         <tr>
-            <td>17:00 – 20:00</td>
+            <td class="col-time">17:00 – 20:00</td>
             <td>Social Event / Apéro</td>
         </tr>
     </tbody>
