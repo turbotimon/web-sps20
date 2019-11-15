@@ -49,6 +49,8 @@ $warning-pastel: $spsa-orange-pastel;
 @import 'spectre/media';
 @import 'spectre/navbar';
 @import 'spectre/chips';
+@import 'spectre/tables';
+@import 'spectre/accordions';
 
 // utilities
 @mixin prefix ($prop, $val) {
@@ -331,4 +333,45 @@ div.mapboxgl-canvas-container > div > svg > g > g:nth-child(2) {
 // recordings
 .recordings h2 {
     margin-top: 1rem !important;
+}
+
+// program
+table#program {
+    border: 0;
+    margin-top: 40px;
+    width: 100%;
+
+    .accordion-header {
+        color: $link-color !important;
+        cursor: pointer;
+        font-weight: 700;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .accordion-body {
+        margin-bottom: 0;
+        max-width: $max-line-width;
+    }
+
+    input[name="accordion-checkbox"]:checked + .accordion-header + .accordion-body {
+        margin-bottom: 1rem;
+    }
+
+    .col-time {
+        width: 130px;
+        @media (max-width: 800px) {
+            width: 60px;
+            overflow-x: auto;
+            vertical-align: middle;
+        }
+    }
+
+    .meta {
+        font-style: italic;
+    }
+
+    td {
+        vertical-align: top;
+    }
 }

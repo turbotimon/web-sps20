@@ -1,0 +1,271 @@
+---
+title: Program
+---
+description: The schedule of talks and presentations during the summit.
+---
+ordering: 3
+---
+body:
+
+# Program
+This is the program for our previous conference. Stay tuned for the upcoming
+2020 program.
+
+<hr/>
+
+It was a difficult task to create a program, considering we received 39
+proposals and time only allowed for a maximum of 9 slots. Many promising
+proposals had to be left out to our regret, but we are certain that we managed
+to put together an amazing and very diverse program!
+
+<table id="program" class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th class="col-time">Time</th>
+            <th class="col-content">Content</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="col-time">08:00 – 09:00</td>
+            <td class="meta">Registration + Coffee (open until 09:15)</td>
+        </tr>
+        <tr>
+            <td class="col-time">09:00 – 09:15</td>
+            <td class="meta">Welcome</td>
+        </tr>
+        <tr>
+            <td class="col-time">09:15 – 10:00</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-1" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-1">
+                        Rocket Science and Software Engineering
+                    </label>
+                    <div class="accordion-body">
+                        Carina works at the German Aerospace Center (DLR) where she is a
+                        software engineering team lead. It is her mission to improve the
+                        software quality at the DLR. But why is this necessary? After all we
+                        went to the moon with less computer power than of a modern smartphone!
+                        While there are a lot of success stories, there are also those stories
+                        where software failures resulted in mission failures.
+                        <br><br>
+                        This talk gives an overview of some of these unfortunate programming
+                        errors, their consequences, and how modern developement tries to prevent
+                        history from repeating.
+                    </div>
+                </div>
+                Carina Haupt
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">10:00 – 10:40</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-2" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-2">
+                        From Exploring Data Interactively to Creating Reproducible Pipelines
+                    </label>
+                    <div class="accordion-body">
+                        Have you previously built a report based on some data? Worried it wouldn't work anymore when you
+                        had to re-run it six months later? Annoyed that you have to email someone to get the latest
+                        version of a plot for your slide deck?
+                        <br><br>
+                        In this interactive talk we will make a reproducible pipeline based on Jupyter notebooks and
+                        open data. I will introduce you to the Python data ecosystem highlighting tools for analysing
+                        data, creating visualisations and sharing those with your team and the public. We will start
+                        with a question, and following the path of a typical data analysis project, we will
+                        interactively explore the data, find our answers and then create a robust pipeline that allows
+                        us to re-run this analysis automatically. Finally I will show how easy it is to share what we
+                        created with others using mybinder.org.
+                    </div>
+                </div>
+                Tim Head
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">10:40 – 11:10</td>
+            <td class="meta">Coffee break</td>
+        </tr>
+        <tr>
+            <td class="col-time">11:10 – 11:40</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-3" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-3">
+                        Comprehensions – Origin, History, Use
+                    </label>
+                    <div class="accordion-body">
+                        Along the lines of Guido's excellent "The History of Python" blog post we'll look into where the
+                        idea for Python's (list) comprehensions came from and how it evolved into these related concepts
+                        in Python:
+                        <ul class="description">
+                            <li>list comprehensions</li>
+                            <li>set comprehensions</li>
+                            <li>dict comprehensions</li>
+                            <li>generator expressions</li>
+                        </ul>
+                    </div>
+                </div>
+                Raphael Das Gupta
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">11:40 – 12:10</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-4" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-4">
+                        Leveraging Neural Networks and Python to Forecast Train Delays in the Swiss Railway Network
+                    </label>
+                    <div class="accordion-body">
+                        In this talk I will show how we developed a neural network model in Python to forecast train
+                        delays in real-time. Based on the history of delays in the surrounding network we can predict
+                        the future expected delay at different points in the network.
+                        <br><br>
+                        Building on the excellent machine learning and deep learning tech stack of Python (Keras,
+                        TensorFlow and Pandas) I will show how to implement and train a sequence prediction model and
+                        work with time series data.
+                    </div>
+                </div>
+                Gabriel Krummenacher
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">12:10 – 12:40</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-5" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-5">
+                        Real Time Django
+                    </label>
+                    <div class="accordion-body">
+                        Since the introduction of Channels, real time web has become much easier to work with in Django.
+                        It’s now possible to build real time applications with much less effort in managing the
+                        idiosyncrasies of the async programming and a lot of batteries are included. Starting with a
+                        brief introduction to Channels, we will see how to build a real time application, both on the
+                        Django and the frontend side and how easy it’s to start experimenting with it.
+                    </div>
+                </div>
+                Iacopo Spalletti
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">12:40 – 14:00</td>
+            <td class="meta">Lunch</td>
+        </tr>
+        <tr>
+            <td class="col-time">14:00 – 14:30</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-6" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-6">
+                        SpyPi – An Attempt to Get Students Into Data Security
+                    </label>
+                    <div class="accordion-body">
+                        Technology has become a fundamental part of our daily life and a major component of the
+                        education system. Students are encouraged to interact with technology and make use of it.
+                        However, in the majority of cases the importance of data security is not discussed, although,
+                        it is important, that especially young people get a feeling for the power of modern technology
+                        and the dangers that come with it.
+                        <br><br>
+                        SpyPi is an attempt to approach these topics in class. The interactive hacking-station is the
+                        result of my high school graduation work and bases on Raspberry Pi and Python. It enables a role
+                        reversal between the user and black-hat hacker/data collector. This helps students to gain a new
+                        perspective on their own behavior with digital information. SpyPi’s interactivity avoids
+                        flooding people with jargon-heavy information and permits SpyPi to meet the user at eye-level.
+                        Several applications are included to point out various dangers we face on a daily basis.
+                    </div>
+                </div>
+                Sarah Mühlemann
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">14:30 – 15:00</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-7" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-7">
+                        Let's Talk About GIL!
+                    </label>
+                    <div class="accordion-body">
+                        There is lot of misconception in majority of Python Programmers regarding Global Interpreter
+                        Lock. Most of them think its the worst part of Python. I will try to demonstrate how it actually
+                        works and how we can leverage multiple CPU cores for multithreading for I/O and CPU Bound tasks.
+                        I will also show some comparisons with different implementations of Python and the presence or
+                        absence of GIL in those, to answer questions like, why we can't just remove it from CPython and
+                        solve all our problems or why Jython performs better in Multithreading for CPU Bound tasks.
+                    </div>
+                </div>
+                Amit Kumar
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">15:00 – 15:45</td>
+            <td class="meta">Coffee break</td>
+        </tr>
+        <tr>
+            <td class="col-time">15:45 – 16:15</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-8" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-8">
+                        Serverless Computing: FaaSter, Better, Cheaper and More Pythonic
+                    </label>
+                    <div class="accordion-body">
+                        Function-as-a-Service (FaaS) is the consequent code-level implementation of the microservices
+                        concept in which each function or method is separately instantiated, measured, accounted and
+                        billed. As a programming and deployment model, it has become popular for discrete event
+                        processing. Several public commercial services offer FaaS hosting, but almost always in silos
+                        with arbitrary limits, incompatible tooling for each provider, and no convenient sharing of
+                        functions.
+                        <br><br>
+                        Snake Functions (Snafu) contrasts these constraints. It is a novel free software tool to fetch,
+                        execute, test and host functions implemented in Python and (with slight performance overhead) in
+                        other languages, too.
+                    </div>
+                </div>
+                Josef Spillner
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">16:15 – 16:45</td>
+            <td>
+                <div class="accordion">
+                    <input type="checkbox" id="accordion-9" name="accordion-checkbox" hidden>
+                    <label class="accordion-header" for="accordion-9">
+                        12 Factor Apps for Data-Science with Python
+                    </label>
+                    <div class="accordion-body">
+                        Heroku distilled their principles to build modern cloud applications to maximize developer
+                        productivity and application maintainability in the in the https://12factor.net manifesto. These
+                        principles have influenced many of our design decisions at Blue Yonder.
+                        <br><br>
+                        While our data scientists care about machine learning models and statistics, we want to free
+                        them of being concerned with technicalities like maintenance of network equipment, operating
+                        system updates or even hardware failures. In order to save our data scientists from these tasks,
+                        we have invested into a data science platform.
+                        <br><br>
+                        This talk will give an insight how we use Apache Mesos, Devpi, Graylog and Prometheus/Graphana
+                        to provide a developer-friendly environment for data scientists to build their own distributed
+                        applications in Python without having to care about servers or scaling.
+                    </div>
+                </div>
+                Peter Hoffmann
+            </td>
+        </tr>
+        <tr>
+            <td class="col-time">16:45 – 17:00</td>
+            <td class="meta">Closing</td>
+        </tr>
+        <tr>
+            <td class="col-time">17:00 – 20:00</td>
+            <td>Social Event / Apéro</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+
+## Aperitif
+Right after the conference we'll have a small aperitif sponsored by [89grad](https://www.89grad.ch/). There will be soft
+drinks, water, beer and snacks free of charge for all conference attendees.
