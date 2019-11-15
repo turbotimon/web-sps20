@@ -17,6 +17,7 @@ $spsa-orange-light: #ff9a60;
 $spsa-orange-pastel: #ffe3d3;
 
 $gray-light: #f5f5f5;
+$gray: #dbdee3;
 $gray-dark: #666;
 
 $header-bullet-color: $spsa-orange;
@@ -221,6 +222,11 @@ li::before {
 // page
 .page {
     padding: 1rem;
+
+    hr {
+        border: 1px solid $gray;
+        margin-bottom: 1rem;
+    }
 
     a {
         font-weight: 700;
