@@ -62,6 +62,14 @@ $warning-pastel: $spsa-orange-pastel;
     #{$prop}: #{$val};
 }
 
+// pushes footer to bottom
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 // adjusted headings
 h1,
 .h1 {
