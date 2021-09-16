@@ -27,6 +27,7 @@ $primary-color: $spsa-blue;
 $secondar-color: $spsa-orange;
 
 $navigation-fg: #fff;
+$navigation-fg-border: #999;
 $navigation-bg: rgba(40, 40, 45, .55);
 $max-line-width: 67ex;
 $smooth-borders: 3px;
@@ -140,10 +141,6 @@ h6,
     margin-top: 5rem;
     min-width: $size-lg;
 
-    .active {
-        font-weight: bold;
-    }
-
     .navbar-section {
         @include prefix(backdrop-filter, blur(2px));
 
@@ -156,14 +153,17 @@ h6,
             @include prefix(transition, none);
 
             color: $navigation-fg;
+            position: relative;
 
+            &.active,
+            &:focus,
             &:hover {
-                color: $spsa-blue-light;
+                box-shadow: none;
+                border-bottom: 2px solid $navigation-fg-border;
             }
 
-            &:focus {
-                box-shadow: none;
-                outline: 2px solid #fff;
+            &.active {
+                border-bottom: 2px solid $navigation-fg !important;
             }
         }
     }
