@@ -215,6 +215,10 @@ ul {
     list-style: none;
     margin-left: 0;
     position: relative;
+
+    li {
+        margin-top: .3rem;
+    }
 }
 
 // bullets
@@ -222,6 +226,7 @@ li::before,
 h1::before {
     color: $header-bullet-color;
     content: '•';
+    font-weight: 700;
     left: -1.5ex;
     margin-top: -1px;
     position: absolute;
