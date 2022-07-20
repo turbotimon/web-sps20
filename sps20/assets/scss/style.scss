@@ -377,6 +377,12 @@ table#program {
         max-width: $max-line-width;
     }
 
+    .bio {
+        margin-top: 1rem;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+
     input[name="accordion-checkbox"]:checked + .accordion-header + .accordion-body {
         margin-bottom: 1rem;
     }

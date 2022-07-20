@@ -7,14 +7,6 @@ ordering: 3
 body:
 
 # Program
-!!! This is the program for our **previous conference**. Stay tuned for the upcoming 2022 program.
-
-<hr/>
-
-It was a difficult task to create a program, considering we received 39
-proposals and time only allowed for a maximum of 9 slots. Many promising
-proposals had to be left out to our regret, but we are certain that we managed
-to put together an amazing and very diverse program!
 
 <table id="program" class="table table-hover table-striped">
     <thead>
@@ -38,22 +30,18 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-1" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-1">
-                        Rocket Science and Software Engineering
+                        Python Folks, keep being so warm and welcoming. People are staying in tech because of you!
                     </label>
                     <div class="accordion-body">
-                        Carina works at the German Aerospace Center (DLR) where she is a
-                        software engineering team lead. It is her mission to improve the
-                        software quality at the DLR. But why is this necessary? After all we
-                        went to the moon with less computer power than of a modern smartphone!
-                        While there are a lot of success stories, there are also those stories
-                        where software failures resulted in mission failures.
+                        I want to talk about my experiences as a woman of color just starting out in tech and the importance of being kind and welcoming to people from minority communities and how it helps them stick around in tech.
+                        <p class="bio">
+                        Mahe is a Software Engineer at Anaconda. Mahe wasn't particularly passionate about programming or software until she accidentally became a part of the Python community and in the process met brilliant people who were kind and warm to her, she eventually decided to stick around and accept the Python Community as her home. 
                         <br><br>
-                        This talk gives an overview of some of these unfortunate programming
-                        errors, their consequences, and how modern developement tries to prevent
-                        history from repeating.
+                        She reads and writes creative non-fiction (sometimes). A member of the University drama club, Mahe can do a Shakespeare or two. :)
+                        </p>
                     </div>
                 </div>
-                Carina Haupt
+                Mahe Iram Khan
             </td>
         </tr>
         <tr>
@@ -62,23 +50,22 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-2" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-2">
-                        From Exploring Data Interactively to Creating Reproducible Pipelines
+                        Rust for Python Developers
                     </label>
                     <div class="accordion-body">
-                        Have you previously built a report based on some data? Worried it wouldn't work anymore when you
-                        had to re-run it six months later? Annoyed that you have to email someone to get the latest
-                        version of a plot for your slide deck?
+                        What programming language are you choosing for a new project? This talk wants to explore why we choose a programming language over another one. We will look
+                        at the languages Python and Rust to understand their strengths and weaknesses.
                         <br><br>
-                        In this interactive talk we will make a reproducible pipeline based on Jupyter notebooks and
-                        open data. I will introduce you to the Python data ecosystem highlighting tools for analysing
-                        data, creating visualisations and sharing those with your team and the public. We will start
-                        with a question, and following the path of a typical data analysis project, we will
-                        interactively explore the data, find our answers and then create a robust pipeline that allows
-                        us to re-run this analysis automatically. Finally I will show how easy it is to share what we
-                        created with others using mybinder.org.
+                        Rust is a fairly new language and offers distinct advantages over most other programming languages when it comes to performance and security. There are
+                        however clear drawbacks.
+                        <br><br>
+                        We will look at side by side comparisons of code and learn how much harder it is to write a lot of simple things in Rust.
+                        <p class="bio">
+                        Dave has been programming Python/JavaScript/TypeScript/Go at cloudscale.ch for the last seven years. He has created an Open Source autocompletion library called Jedi (420m downloads) that is available in most editors as well as IPython. To improve the performance in Jedi, Dave has spent the last two years rewriting Jedi in Rust.
+                        </p>
                     </div>
                 </div>
-                Tim Head
+                Dave Halter
             </td>
         </tr>
         <tr>
@@ -91,21 +78,18 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-3" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-3">
-                        Comprehensions – Origin, History, Use
+                        Running Machine Learning in Production - a Journey to Success
                     </label>
                     <div class="accordion-body">
-                        Along the lines of Guido's excellent "The History of Python" blog post we'll look into where the
-                        idea for Python's (list) comprehensions came from and how it evolved into these related concepts
-                        in Python:
-                        <ul class="description">
-                            <li>list comprehensions</li>
-                            <li>set comprehensions</li>
-                            <li>dict comprehensions</li>
-                            <li>generator expressions</li>
-                        </ul>
+                        Have you ever deployed a machine learning project to production with the same principles as a software project? I did - I failed. But, on the way, I learned many essential factors to run ML in production environments successfully! So there is more to it than just deploying a data scientist Jupyter notebook to AWS.
+                        <br><br>
+                        This talk will go through some common pitfalls of running machine learning in production settings. We will start with the requirements and work through the data acquisition and model-building phase. We explore beyond the current MLOps hype and try to understand what it takes to run a successful project that is ready to ripe like a fine wine rather than old milk.
+                        <p class="bio">
+                        Martin works as the vice-dean of studies for the post-diploma degree in “Machine Learning for Software Engineers” at the Ostschweizer Fachhochschule in Rapperswil. Over the past fifteen years, he has worked in multiple software industry engineering positions and applied research. He is passionate about Machine Learning and Software challenges “beyond CRUD”.
+                        </p>
                     </div>
                 </div>
-                Raphael Das Gupta
+                Martin Stypinski
             </td>
         </tr>
         <tr>
@@ -114,19 +98,22 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-4" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-4">
-                        Leveraging Neural Networks and Python to Forecast Train Delays in the Swiss Railway Network
+                        CLI applications & TDD: Never write scripts again
                     </label>
                     <div class="accordion-body">
-                        In this talk I will show how we developed a neural network model in Python to forecast train
-                        delays in real-time. Based on the history of delays in the surrounding network we can predict
-                        the future expected delay at different points in the network.
+                        As a DevOps engineer, when you write Python code, do you also write tests? If you're like the majority of the folks out there, chances are you don't. Why would you? It's usually just a script, even if it gets longer over time and starts feeling like Bash. – Deep inside you know that writing tests would be needed. It's the prerequisite for test automation, the foundation of release automation. But heck, who cares? It would be cumbersome to do.
                         <br><br>
-                        Building on the excellent machine learning and deep learning tech stack of Python (Keras,
-                        TensorFlow and Pandas) I will show how to implement and train a sequence prediction model and
-                        work with time series data.
+                        You write scripts for your automation tasks – Python makes it easy to get started – and you have noticed that they get hard to maintain when they grow and accumulate logic? Sometimes you split up a large script into several files, but that feels like spaghetti code? Several plates of spaghetti.
+                        <br><br>
+                        This talk explains why it makes sense to stop hacking glue code and start developing serious CLI applications, test-driven, with automated tests. Even if you have some experience with writing tests, it's not immediately obvious how to get started. You'll get to know the cli-test-helpers package and see a hands-on demonstration of developing a CLI application from scratch, TDD-style. We'll scratch the surface of some popular CLI frameworks (argparse, click, docopt), and you'll take home working code samples that will help you refuse the temptation of writing code without tests, in future.
+                        <br><br>
+                        This talk will make you a TDD addict. Come get the drug!
+                        <p class="bio">
+                        Peter is a Python developer, DevOps engineer and Agile coach. A developer of people, companies and code.
+                        </p>
                     </div>
                 </div>
-                Gabriel Krummenacher
+                Peter Bittner
             </td>
         </tr>
         <tr>
@@ -135,17 +122,20 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-5" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-5">
-                        Real Time Django
+                        Pydantic Configuration Management with ConfZ
                     </label>
                     <div class="accordion-body">
-                        Since the introduction of Channels, real time web has become much easier to work with in Django.
-                        It’s now possible to build real time applications with much less effort in managing the
-                        idiosyncrasies of the async programming and a lot of batteries are included. Starting with a
-                        brief introduction to Channels, we will see how to build a real time application, both on the
-                        Django and the frontend side and how easy it’s to start experimenting with it.
+                        Config management in larger applications can become quite complex: Information needs to be loaded from different sources like environment variables, config files and command line arguments, the loaded data needs to be validated to ensure all expected information is present and in the correct format and then distributed to different locations in the codebase. This holds true especially in data science projects, having rich model and training configurations.
+                        <br><br>
+                        To simplify this process, we developed and open-sourced ConfZ, a config management library for Python based on pydantic. It easily allows to load config values from heterogeneous sources, validates them and makes them accessible as Python dataclass-like objects with full IDE support. It furthermore supports in common use cases like having multiple environments, lazy loading and unit testing. Within two months, we already reached more than 100 stars on GitHub.
+                        <br><br>
+                        In this talk, we show how ConfZ is used and how it compares to other config management solutions. We then dig into the pythonic details and see how meta classes drive the internals of the library.
+                        <p class="bio">
+                        Silvan is a data scientist who really likes to get his hands on the full stack from cloud data pipeline setup over ML processing to frontend web development and data display. Since 2019, he works for Zühlke, where he focuses on computer vision and medical data science applications.
+                        </p>
                     </div>
                 </div>
-                Iacopo Spalletti
+                Silvan Melchior
             </td>
         </tr>
         <tr>
@@ -158,24 +148,16 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-6" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-6">
-                        SpyPi – An Attempt to Get Students Into Data Security
+                        Game Development with CircuitPython
                     </label>
                     <div class="accordion-body">
-                        Technology has become a fundamental part of our daily life and a major component of the
-                        education system. Students are encouraged to interact with technology and make use of it.
-                        However, in the majority of cases the importance of data security is not discussed, although,
-                        it is important, that especially young people get a feeling for the power of modern technology
-                        and the dangers that come with it.
-                        <br><br>
-                        SpyPi is an attempt to approach these topics in class. The interactive hacking-station is the
-                        result of my high school graduation work and bases on Raspberry Pi and Python. It enables a role
-                        reversal between the user and black-hat hacker/data collector. This helps students to gain a new
-                        perspective on their own behavior with digital information. SpyPi’s interactivity avoids
-                        flooding people with jargon-heavy information and permits SpyPi to meet the user at eye-level.
-                        Several applications are included to point out various dangers we face on a daily basis.
+                        With a large selection of handheld devices running CircuitPython, it's natural to want to make games for them. But where to start? What are the options available for the hardware, the libraries and other resources? And how do you use all of that? This talk aims to give a gentle introduction for everyone.
+                        <p class="bio">
+                        Radomir (deshipu) is an enthusiastic user of MicroPython and CircuitPython from the very beginnings of those projects. He builds robots, handheld game consoles, keyboards and all sorts of other fun projects.
+                        </p>
                     </div>
                 </div>
-                Sarah Mühlemann
+                Radomir Dopieralski
             </td>
         </tr>
         <tr>
@@ -184,18 +166,18 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-7" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-7">
-                        Let's Talk About GIL!
+                        Static type checking with mypy
                     </label>
                     <div class="accordion-body">
-                        There is lot of misconception in majority of Python Programmers regarding Global Interpreter
-                        Lock. Most of them think its the worst part of Python. I will try to demonstrate how it actually
-                        works and how we can leverage multiple CPU cores for multithreading for I/O and CPU Bound tasks.
-                        I will also show some comparisons with different implementations of Python and the presence or
-                        absence of GIL in those, to answer questions like, why we can't just remove it from CPython and
-                        solve all our problems or why Jython performs better in Multithreading for CPU Bound tasks.
+                        Python is a dynamic language, which gives its users a lot of power. But, as we know, with great power comes great responsibility. Fortunately for us, we can incorporate a tool in our workflows - Mypy. Mypy allows developers to add a layer of safety in their programs - static type annotations.
+                        <br><br>
+                        During my talk, I will show you why PEP484 type annotations can be helpful, how to check them, and gradually introduce them in your codebase. Additionally, I want to show some tricks to make the dynamic parts safer. Finally, I will also show situations where Mypy falls short and how to avoid them.
+                        <p class="bio">
+                        Michal's professional coding career started in 2014 in Ruby. Since that time, he has managed to work in Scala, Java, and Python. He is interested in security and open-source intelligence. In addition, he love's to have correct and well-tested software running on production.
+                        </p>
                     </div>
                 </div>
-                Amit Kumar
+                Michal Gutowski
             </td>
         </tr>
         <tr>
@@ -208,22 +190,18 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-8" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-8">
-                        Serverless Computing: FaaSter, Better, Cheaper and More Pythonic
+                        MicroPython on the RP2040
                     </label>
                     <div class="accordion-body">
-                        Function-as-a-Service (FaaS) is the consequent code-level implementation of the microservices
-                        concept in which each function or method is separately instantiated, measured, accounted and
-                        billed. As a programming and deployment model, it has become popular for discrete event
-                        processing. Several public commercial services offer FaaS hosting, but almost always in silos
-                        with arbitrary limits, incompatible tooling for each provider, and no convenient sharing of
-                        functions.
+                        RP2040 is the Raspberry Pi Foundation's take on the microcontroller. It is fast, cheap and has some very neat features. MicroPython is a software implementation of a subset of the Python3 programming language, optimized to run on microcontrollers and in constrained environments.
                         <br><br>
-                        Snake Functions (Snafu) contrasts these constraints. It is a novel free software tool to fetch,
-                        execute, test and host functions implemented in Python and (with slight performance overhead) in
-                        other languages, too.
+                        After a short introduction of both technologies, we will present notable features and particularities of the RP2040, and how they can be easily accessed using MicroPython. This includes dual-core technology, PIO (programmable in-out) and DMA (direct memory access). Moreover, we will illustrate how some some of those features are used in real-world use cases, including a live demonstration. The talk will end with a discussion on the limits of the MicroPython approach with respect to the C/C++ SDK, and a question and answer session.
+                        <p class="bio">
+                        Tobias, originating from just across the dam, performed his Masters studies in Neuchâtel and obtained a PhD in the field of optoelectronics from ETHZ in 2009. He then worked for a component manufacturer specialized in the quantum cascade laser, as responsible for the laser chip fabrication, and partly the IT department . In 2021 he decided to found his own company, tweax sàrl, where he acts as CEO and master tweaker.  Tweax sàrl operates from Lausanne, and is specialized in developing custom IT solutions, based on open source hard- and software.
+                        </p>
                     </div>
                 </div>
-                Josef Spillner
+                Tobias Gresch
             </td>
         </tr>
         <tr>
@@ -232,24 +210,16 @@ to put together an amazing and very diverse program!
                 <div class="accordion">
                     <input type="checkbox" id="accordion-9" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-9">
-                        12 Factor Apps for Data-Science with Python
+                        Automating teaching about automation in Python
                     </label>
                     <div class="accordion-body">
-                        Heroku distilled their principles to build modern cloud applications to maximize developer
-                        productivity and application maintainability in the in the https://12factor.net manifesto. These
-                        principles have influenced many of our design decisions at Blue Yonder.
-                        <br><br>
-                        While our data scientists care about machine learning models and statistics, we want to free
-                        them of being concerned with technicalities like maintenance of network equipment, operating
-                        system updates or even hardware failures. In order to save our data scientists from these tasks,
-                        we have invested into a data science platform.
-                        <br><br>
-                        This talk will give an insight how we use Apache Mesos, Devpi, Graylog and Prometheus/Graphana
-                        to provide a developer-friendly environment for data scientists to build their own distributed
-                        applications in Python without having to care about servers or scaling.
+                        Since autumn 2021, there is an "Automation in Python" course for first-semester IT students here at OST. This talk will tell the story on how it all came to be, what surprises you run into when you're suddenly responsible for 120 students, and how automating things in Python played a big role when teaching about automating things in Python.
+                        <p class="bio">
+                        Florian ("The Compiler") discovered Python in 2011 and fell in love with it. He is a long-time contributor and maintainer of pytest as well as various plugins. In 2013, he started the qutebrowser project, a keyboard-focused web browser based on Python and Qt, which grew from a hobby into a part-time job. Since 2021, he's responsible for teaching Python here at OST.
+                        </p>
                     </div>
                 </div>
-                Peter Hoffmann
+                Florian Bruhin
             </td>
         </tr>
         <tr>
