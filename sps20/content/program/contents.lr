@@ -78,7 +78,7 @@ body:
                 <div class="accordion">
                     <input type="checkbox" id="accordion-3" name="accordion-checkbox" hidden>
                     <label class="accordion-header" for="accordion-3">
-                        Running Machine Learning in Production - a Journey to Success
+                        Running Machine Learning in Production – a Journey to Success
                     </label>
                     <div class="accordion-body">
                         Have you ever deployed a machine learning project to production with the same principles as a software project? I did - I failed. But, on the way, I learned many essential factors to run ML in production environments successfully! So there is more to it than just deploying a data scientist Jupyter notebook to AWS.
