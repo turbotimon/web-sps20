@@ -1,4 +1,4 @@
-# Static Website for the 2020 Swiss Summit
+# Static Website for the 2022 Swiss Summit
 
 A [Lektor](https://www.getlektor.com/) powered project.
 
