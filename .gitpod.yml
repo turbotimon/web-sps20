@@ -7,3 +7,11 @@ tasks:
 ports:
   - port: 5000
     onOpen: open-preview
+
+
+# HELP with error 'error: GH007: Your push would publish a private email address.' while pushing
+# 1. go to 'http://github.com/settings/emails' to find your Primary email address. It looks like: {ID}+{username}@users.noreply.github.com
+# 2. execute: git config --global user.email "{ID}+{username}@users.noreply.github.com"
+# 3. if a commit where already made, use: git commit --amend --reset-author
+# 4. no PUSH IT UP!
+# (if you made multiple commits, see https://stackoverflow.com/questions/4981126/how-to-amend-several-commits-in-git-to-change-author/25815116#25815116)
