@@ -2,11 +2,11 @@
 tasks:
   - name: serve
     init: |
-      virtualenv -p python3 .
-      source bin/activate
+      virtualenv -p python3 venv
+      source venv/bin/activate
       make install
     command: |
-      source bin/activate
+      source venv/bin/activate
       make serve
   - name: git
     command: |
