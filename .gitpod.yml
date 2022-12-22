@@ -1,7 +1,17 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: make install
-    command: make serve
+  - name: install
+    init: |
+      virtualenv -p python3 .
+      source bin/activate
+      make install
+  - name: serve
+    command: |
+      source bin/activate
+      make serve
+  - name: git
+    command: |
+      echo "if you have problems with pushing (error: GH007), see .gitpod.yml for help"
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
