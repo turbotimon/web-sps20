@@ -1,17 +1,21 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: install
+  - name: serve
     init: |
       virtualenv -p python3 .
       source bin/activate
       make install
-  - name: serve
     command: |
       source bin/activate
       make serve
   - name: git
     command: |
-      echo "if you have problems with pushing (error: GH007), see .gitpod.yml for help"
+      echo "HELP with error 'error: GH007: Your push would publish a private email address.' while pushing"
+      echo "1. go to 'http://github.com/settings/emails' to find your Primary email address. It looks like: {ID}+{username}@users.noreply.github.com"
+      echo "2. execute: git config user.email '{ID}+{username}@users.noreply.github.com"''"
+      echo "3. if a commit where already made, use: git commit --amend --reset-author"
+      echo "(if you made multiple commits, see https://stackoverflow.com/questions/4981126/how-to-amend-several-commits-in-git-to-change-author/25815116#25815116)"
+      echo "4. no PUSH IT UP!"
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
@@ -21,7 +25,7 @@ ports:
 
 # HELP with error 'error: GH007: Your push would publish a private email address.' while pushing
 # 1. go to 'http://github.com/settings/emails' to find your Primary email address. It looks like: {ID}+{username}@users.noreply.github.com
-# 2. execute: git config --global user.email "{ID}+{username}@users.noreply.github.com"
+# 2. execute: git config user.email "{ID}+{username}@users.noreply.github.com"
 # 3. if a commit where already made, use: git commit --amend --reset-author
-# 4. no PUSH IT UP!
 # (if you made multiple commits, see https://stackoverflow.com/questions/4981126/how-to-amend-several-commits-in-git-to-change-author/25815116#25815116)
+# 4. no PUSH IT UP!
