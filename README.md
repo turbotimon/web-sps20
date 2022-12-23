@@ -25,14 +25,6 @@ After that the website should be available on port 5000.
 
 Note: The playlist URLs are stored in `databags/playlists.json`.
 
-## Develop with Gitpod
-<a href="https://gitpod.io/#https://github.com/turbotimon/web-sps20">
-  <img
-    src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod"
-    alt="Contribute with Gitpod"
-  />
-</a>
-
----
+## You can also develop with Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/turbotimon/web-sps20)
