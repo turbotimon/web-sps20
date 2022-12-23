@@ -1,18 +1,18 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: install
-    init: |
-      virtualenv -p python3 venv
+    init: >
+      virtualenv -p python3 venv &&
+      source venv/bin/activate &&
+      make install &&
       gp sync-done venv
-      source venv/bin/activate
-      make install
   - name: serve
-    init: gp sync-done venv
+    init: gp sync-await venv
     command: |
       source venv/bin/activate
       make serve
   - name: git
-    init: gp sync-done venv
+    init: gp sync-await venv
     command: |
       source venv/bin/activate
       echo "HELP with error 'error: GH007: Your push would publish a private email address.' while pushing
